@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center_horizontal"
+    android:background="@color/bg_color"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:text="WHAT YOUR AGE IN MINUTES"
+        android:textColor="@color/text_color"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="@color/textbg_color"
+        android:padding="8dp"
+        android:text="LET'S CALCULATE"
+        android:textColor="@color/text2_color"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:padding="8dp"
+        android:text="Enter Name : "
+        android:textColor="@color/text2_color"
+        android:textSize="13dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="273dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-15dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:padding="20dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Enter Your Birth Date"
+        android:backgroundTint="@color/button_color"
+        />
+
+    <TextView
+        android:id="@+id/tvdate"
+        android:layout_width="196dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:textColor="#03A9F4" />
+
+    <TextView
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:text="Date of Birth"
+        android:textAlignment="center"
+        android:textColor="@color/smalltext_color"
+        android:textSize="9sp" />
+
+    <TextView
+        android:id="@+id/min"
+        android:layout_width="196dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:textAlignment="center"
+        android:textColor="#03A9F4"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:text="Minutes Till This Date"
+        android:textAlignment="center"
+        android:textColor="@color/smalltext_color"
+        android:textSize="11sp" />
+
+    <TextView
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        android:text="MinutesAge app by Paurakh "
+        android:textAlignment="center"
+        android:textColor="@color/smalltext_color"
+        android:textSize="9sp" />
+
+    <TextView
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:text="Donate For Charity"
+        android:textAlignment="center"
+        android:textColor="@color/smalltext_color"
+        android:textSize="9sp" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="?android:attr/fingerprintAuthDrawable"
+        android:padding="80dp"
+        />
+
+</LinearLayout>
